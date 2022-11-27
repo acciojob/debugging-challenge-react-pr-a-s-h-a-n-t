@@ -6,7 +6,7 @@ const App = () => {
   const [count, setCount] = useState(0)
 
   return (
-    <div class="ball">
+    <div className="ball">
       <h1 className="count" 
       onDoubleClick={() => {
         alert("cant edit it")
